@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/codeecom/static/css/main.73dcbf1e.css",
+    "main.js": "/codeecom/static/js/main.c1af3475.js",
+    "static/js/453.d7446e4a.chunk.js": "/codeecom/static/js/453.d7446e4a.chunk.js",
+    "static/media/codeecom.png": "/codeecom/static/media/codeecom.42cb916cb223752412fe.png",
+    "static/media/program.png": "/codeecom/static/media/program.594459613d3e3b63274c.png",
+    "static/media/host.png": "/codeecom/static/media/host.6a662c2ec04cf41fa697.png",
+    "static/media/api.png": "/codeecom/static/media/api.ee98b0bc01b09e192056.png",
+    "static/media/web-dev.png": "/codeecom/static/media/web-dev.870b85bb3db7ace7092e.png",
+    "static/media/seo.png": "/codeecom/static/media/seo.a441fe54fd7f4d702249.png",
+    "static/media/responsive.png": "/codeecom/static/media/responsive.4af47177817ca5008518.png",
+    "static/media/dev.png": "/codeecom/static/media/dev.42b981d4ad52ba845998.png",
+    "static/media/webapp.png": "/codeecom/static/media/webapp.7643b7abeac5a175449b.png",
+    "index.html": "/codeecom/index.html",
+    "main.73dcbf1e.css.map": "/codeecom/static/css/main.73dcbf1e.css.map",
+    "main.c1af3475.js.map": "/codeecom/static/js/main.c1af3475.js.map",
+    "453.d7446e4a.chunk.js.map": "/codeecom/static/js/453.d7446e4a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73dcbf1e.css",
+    "static/js/main.c1af3475.js"
+  ]
+}
