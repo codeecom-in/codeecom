@@ -1,0 +1,97 @@
+.service-section {
+  padding: 100px 5%;
+  background: var(--bg-dark);
+  position: relative;
+}
+
+.service-section h2 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 60px;
+  text-align: center;
+  background: linear-gradient(to right, var(--neon-primary), var(--neon-secondary));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  width: 100%;
+}
+
+.service-sections {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  gap: 50px;
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+.service-sections:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.service-image {
+  flex: 0 0 350px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.service-image img {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  border-radius: 20px;
+  filter: drop-shadow(0 0 15px rgba(0, 242, 255, 0.1));
+  transition: all 0.5s ease;
+}
+
+.right-section,
+.left-section {
+  flex: 1.5;
+  text-align: left;
+}
+
+.service-sections h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: var(--neon-primary);
+}
+
+.service-sections p {
+  font-size: 1.1rem;
+  color: var(--text-dim);
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.button-group {
+  display: flex;
+  gap: 20px;
+}
+
+/* Reusing neon button styles from Hero.css */
+/* I'll add them to index.css if needed, but for now I'll use common classes */
+
+@media (max-width: 992px) {
+  .service-sections {
+    flex-direction: column !important;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .right-section,
+  .left-section {
+    text-align: center;
+  }
+
+  .button-group {
+    justify-content: center;
+  }
+
+  .service-sections h3 {
+    font-size: 1.8rem;
+  }
+}
